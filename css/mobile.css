@@ -1,0 +1,40 @@
+nav ul li a {
+	margin:0 10px 0 10px;
+}
+
+.nav-font {
+	font-size: 2em !important;
+}
+
+.landscape {
+	width: 90%;
+    height: 5%;
+    text-align: center;
+    margin: 0 0 0 5%;
+}
+
+.min-width{
+	min-width: 455px;
+}
+
+.catalog-hidden-tablet{
+	display:none;
+}
+
+.spacer{
+	min-height: 15px;
+}
+
+@media only screen and (orientation: landscape) {
+    .main-container {
+	  width: 100%;
+	  margin: 0 auto;
+	}
+}
+
+/* --- UIkit Modifications --- */
+
+.uk-child-width-1-2 > * {
+  width: 100%;
+}
+

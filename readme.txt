@@ -1,0 +1,1 @@
+Alle verwendeten Bilder sind unter CC0 1.0 Universell lizensiert.

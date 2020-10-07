@@ -1,0 +1,31 @@
+img {
+	vertical-align: middle;
+}
+
+nav ul li a {
+	font-size: 1.5em !important;
+	margin:0 20px 0 0;
+}
+
+.landscape {
+    text-align: center;
+    margin:0 20% 0 20%;
+}
+
+.catalog-hidden-tablet{
+	display:none;
+}
+
+.spacer{
+	min-height: 15px;
+}
+
+@media only screen and (orientation: landscape) {
+    .main-container {
+	  width: 100%;
+	  margin: 0 auto;
+	}
+}
+
+/* --- UIkit Modifications --- */
+

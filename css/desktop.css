@@ -1,0 +1,58 @@
+nav ul li a {
+	font-size: 2.4em !important;
+	margin:0 60px 0 0;
+}
+
+.main-container {
+  width: 73.333%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 33.333%;
+  margin: 0 auto;
+}
+
+.header-welcome{
+	background-color: rgba(255,255,255,0.1);
+	color:white;
+	margin-top: 20px;
+	max-width: 60%;
+}
+
+.footer-contact{
+	font-size: 1.5em; 
+	width:100% !important;
+}
+
+.footer-margin {
+	margin-top: 60px;
+	text-decoration: none;
+	color: white;
+}
+
+.slideshow-transparent-dark{
+	max-width: 20%
+}
+
+.catalog-hidden-desktop{
+	display:none;
+}
+
+.spacer{
+	min-height: 30px;
+}
+
+.gallery-left-right{
+	color: white !important; 
+}
+
+/* --- UIkit Modifications --- */
+
+.nav-container {
+  margin: 0 35% 0 35%;
+}
+
+
+
+
