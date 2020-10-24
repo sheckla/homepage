@@ -1,127 +1,160 @@
 <!DOCTYPE html>
 <html lang="de">
-   <head>
-      <title>Silber Reisen - der Reiseanbieter für Seniorenreisen</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="css/uikit.css" />
-      <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobile.css">
-      <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1599px)" href="css/tablet.css">
-      <link rel="stylesheet" media="screen and (min-width: 1600px)" href="css/desktop.css">
-      <link rel="stylesheet" href="css/global.css">
-      <script src="js/uikit.min.js"></script>
-      <script src="js/uikit-icons.min.js"></script>
-   </head>
- <body>
 
-<div class="background-header" style="background-image:url(./img/header2.jpg);">
-<div class="landscape">
-    <img src="img/silberlogo.png" alt="Silber Reisen - Logo">
-</div>
-<div class="main-container">
-    <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent ; top: 50 uk-box-shadow-large">
+<head>
+    <title>Silber Reisen - der Reiseanbieter für Seniorenreisen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.css" />
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1599px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 1600px)" href="css/desktop.css">
+    <link rel="stylesheet" href="css/global.css">
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
 
-        <nav class="uk-navbar-container dropbar-mode: push; min-width shadow uk-container uk-box-shadow-large" uk-navbar>
-    <div class="uk-navbar-left">
-        <ul class="uk-navbar-nav nav-font">
-          <li><a href="./index.html"><span uk-icon="icon: home; ratio: 2"></span>Startseite</a></li>
-          <li><a href="./reise.html">Reise Suchen</a></li>
-          <li><a href="./about.html" class="active">Über Uns</a></li>
-        </ul>
-    </div>
-    <div class="uk-navbar-right">
-        <ul class="uk-navbar-nav nav-font">
-          <li><a><span uk-icon="icon: search; ratio: 2"></span></a>
-            <div class="uk-navbar-dropdown" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
-                <div class="uk-grid-medium uk-flex-middle" uk-grid>
-                    <div class="uk-width-expand">
-                            <input class="uk-search-input" type="search" id="search" placeholder="Reiseziel..." autofocus>
-                            <input type="button" value="suchen" class="submit search-button" onclick="formSubmitLink()">
+<body>
+
+    <div class="background-header" style="background-image:url(./img/header2.jpg);">
+        <div class="landscape">
+            <img src="img/silberlogo.png" alt="Silber Reisen - Logo">
+        </div>
+        <div class="main-container">
+            <div
+                uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent ; top: 50 uk-box-shadow-large">
+
+                <nav class="uk-navbar-container dropbar-mode: push; min-width shadow uk-container uk-box-shadow-large"
+                    uk-navbar>
+                    <div class="uk-navbar-left">
+                        <ul class="uk-navbar-nav nav-font">
+                            <li><a href="./index.html"><span uk-icon="icon: home; ratio: 2"></span>Startseite</a></li>
+                            <li><a href="./reise.html">Reise Suchen</a></li>
+                            <li><a href="./about.html" class="active">Über Uns</a></li>
+                        </ul>
                     </div>
-                    <div class="uk-width-auto">
-                        <a class="uk-navbar-dropdown-close" uk-close></a>
+                    <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav nav-font">
+                            <li><a><span uk-icon="icon: search; ratio: 2"></span></a>
+                                <div class="uk-navbar-dropdown"
+                                    uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !nav">
+                                    <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <input class="uk-search-input" type="search" id="search"
+                                                placeholder="Reiseziel..." autofocus>
+                                            <input type="button" value="suchen" class="submit search-button"
+                                                onclick="formSubmitLink()">
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <a class="uk-navbar-dropdown-close" uk-close></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="spacer"></div>
+            <div class="uk-container">
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-1 uk-align-center transparent-dark"
+                    uk-grid>
+                    <div>
+                        <div class="uk-card-body uk-text-center text-shadow">
+                            <h2 class="uk-text-bold uk-text-warning">Was ist Silberreisen?</h2>
+                            <p class="primary-white" div="mittlereButton(n)">Einzigarte und besondere Reisen ganz
+                                einfach per Internet</p>
+                        </div>
                     </div>
                 </div>
             </div>
-          </li>
-        </ul>
-    </div>
-    </nav>
-</div>
 
-<div class="spacer"></div>
-<div class="uk-container">
-<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-1 uk-align-center transparent-dark" uk-grid>
-    <div>
-        <div class="uk-card-body uk-text-center text-shadow">
-            <h2 class="uk-text-bold uk-text-warning">Was ist Silberreisen?</h2>
-            <p class="primary-white" div="mittlereButton(n)">Einzigarte und besondere Reisen ganz einfach per Internet</p>
-        </div>
-    </div>
-</div>
-</div>
+            <div class="spacer"></div>
 
-<div class="spacer"></div>
-
-<div class="uk-container">
-<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-3@s transparent-dark" uk-grid>
-    <div class="uk-card-media-left uk-cover-container uk-width-expand height">
-        <img src="img/office.jpg" alt="Silber Reisen büro" uk-cover>
-        <div class="uk-card-badge uk-label background-main-orange-1">Unser bezauberndes Büro</div>
-        <canvas width="700" height="700"></canvas>
-    </div>
-    <div>
-        <div class="uk-card-body primary-white text-shadow">
-            <div class="uk-text-bold uk-text-large uk-text-warning">Traumhafte Reisen zum besten Preis</div>
-            <p>Das kompetente Team von Silber Reisen beschäftigt sich tagtäglich damit, Ihnen die besten Angebote für wunderbare Reisen zu erstellen. Auch arbeitet unser Kundenservice rund um die Uhr, so dass Sie auch auf ihrer Auslandsreise stetig mit unseren freundlichen Kundenservice Ihre Probleme lösen können.</p>
-            <p>Nehmen sie unsere Reiseberatung in Anspruch für nur: </p>
-            <div class="uk-margin-remove color-secondary-2-2 uk-text-large uk-text-bold">29,95€</div>
-        </div>
-    </div>
-</div>
-</div>
-<div class="spacer"></div>
-</div>
-</div>
-
-<footer>
-<div class="uk-section uk-section-secondary min-width main-container">
-   <div class="uk-container">
-      <div class="uk-grid-collapse uk-child-width-1-2 uk-grid-divider footer-contact" uk-grid>
-                  <div class="whitespace-nowrap"><h2 class="uk-text-bold">Kontakt</h2><br>
-                      <div class="uk-grid uk-child-width-1-6 " uk-grid>
-                      <div class="footer-icon" ><span uk-icon="icon: location; ratio: 2.8"></span></div>
-                      <div class="uk-align-left uk-text-middle">Silberweg 28, Silberstadt, DE</div>
-                      <div></div>
-                  </div>
-                      <div class="uk-grid uk-child-width-1-6 " uk-grid>
-                      <div class="footer-icon"><span uk-icon="icon: receiver; ratio: 2.8"></span></div>
-                      <div class="uk-text-bold">+49 0123 4567</div>
-                      <div></div>
-                  </div>
-                 <div class="uk-grid uk-child-width-1-6 " uk-grid>
-                      <div class="footer-icon"><span uk-icon="icon: mail; ratio: 2.8"></span></div>
-                      <div class="uk-align-left uk-text-middle">kontakt@silberreisen.de</div>
-                 </div>
-                  </div>
-                  <div><h2 class="uk-text-bold">Silber Reisen GmbH Deutschland</h2>
-                     <p class="primary-text-3">Das Team von Silber Reisen arbeitet stetig daran ihre Reiseerfahrung zu verbessern. So arbeiten wir tagtäglich neue Angebote und Möglichkeiten aus, so dass Sie zum besten Preis einen Urlaub im Ort ihrer Wahl erleben können.</p>
-                     <p class="primary-text-3"></p>
-                    <div class="uk-container">
-                      <div class="uk-grid-collapse uk-child-width-1-3" uk-grid>
-                          <div><div class="uk-panel"><span class="uk-position-top-center footer-icon" uk-icon="icon: happy; ratio: 2.8"></span>
-                              <br><div class="uk-position-center footer-margin">Zufriedenheit</div></div></div>
-                          <div><div class="uk-panel"><span class="uk-position-top-center footer-icon" uk-icon="icon: lock; ratio: 2.8"></span>
-                              <br><div class="uk-position-center footer-margin">Sicherheit</div></div></div>
-                          <div><div class="uk-panel"><span class="uk-position-top-center footer-icon" uk-icon="icon: users; ratio: 2.8"></span>
-                              <br><div class="uk-position-center footer-margin">Vertrauen</div></div></div>
-                      </div>
+            <div class="uk-container">
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-3@s transparent-dark" uk-grid>
+                    <div class="uk-card-media-left uk-cover-container uk-width-expand height">
+                        <img src="img/office.jpg" alt="Silber Reisen büro" uk-cover>
+                        <div class="uk-card-badge uk-label background-main-orange-1">Unser bezauberndes Büro</div>
+                        <canvas width="700" height="700"></canvas>
                     </div>
-                  </div>
-      </div>
-   </div>
-</div>
-</footer>
-<script src="js/search.js"></script>
+                    <div>
+                        <div class="uk-card-body primary-white text-shadow">
+                            <div class="uk-text-bold uk-text-large uk-text-warning">Traumhafte Reisen zum besten Preis
+                            </div>
+                            <p>Das kompetente Team von Silber Reisen beschäftigt sich tagtäglich damit, Ihnen die besten
+                                Angebote für wunderbare Reisen zu erstellen. Auch arbeitet unser Kundenservice rund um
+                                die Uhr, so dass Sie auch auf ihrer Auslandsreise stetig mit unseren freundlichen
+                                Kundenservice Ihre Probleme lösen können.</p>
+                            <p>Nehmen sie unsere Reiseberatung in Anspruch für nur: </p>
+                            <div class="uk-margin-remove color-secondary-2-2 uk-text-large uk-text-bold">29,95€</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="uk-section uk-section-secondary min-width main-container">
+            <div class="uk-container">
+                <div class="uk-grid-collapse uk-child-width-1-2 uk-grid-divider footer-contact" uk-grid>
+                    <div class="whitespace-nowrap">
+                        <h2 class="uk-text-bold">Kontakt</h2><br>
+                        <div class="uk-grid uk-child-width-1-6 " uk-grid>
+                            <div class="footer-icon"><span uk-icon="icon: location; ratio: 2.8"></span></div>
+                            <div class="uk-align-left uk-text-middle">Silberweg 28, Silberstadt, DE</div>
+                            <div></div>
+                        </div>
+                        <div class="uk-grid uk-child-width-1-6 " uk-grid>
+                            <div class="footer-icon"><span uk-icon="icon: receiver; ratio: 2.8"></span></div>
+                            <div class="uk-text-bold">+49 0123 4567</div>
+                            <div></div>
+                        </div>
+                        <div class="uk-grid uk-child-width-1-6 " uk-grid>
+                            <div class="footer-icon"><span uk-icon="icon: mail; ratio: 2.8"></span></div>
+                            <div class="uk-align-left uk-text-middle">kontakt@silberreisen.de</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="uk-text-bold">Silber Reisen GmbH Deutschland</h2>
+                        <p class="primary-text-3">Das Team von Silber Reisen arbeitet stetig daran ihre Reiseerfahrung
+                            zu verbessern. So arbeiten wir tagtäglich neue Angebote und Möglichkeiten aus, so dass Sie
+                            zum besten Preis einen Urlaub im Ort ihrer Wahl erleben können.</p>
+                        <p class="primary-text-3"></p>
+                        <div class="uk-container">
+                            <div class="uk-grid-collapse uk-child-width-1-3" uk-grid>
+                                <div>
+                                    <div class="uk-panel"><span class="uk-position-top-center footer-icon"
+                                            uk-icon="icon: happy; ratio: 2.8"></span>
+                                        <br>
+                                        <div class="uk-position-center footer-margin">Zufriedenheit</div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-panel"><span class="uk-position-top-center footer-icon"
+                                            uk-icon="icon: lock; ratio: 2.8"></span>
+                                        <br>
+                                        <div class="uk-position-center footer-margin">Sicherheit</div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-panel"><span class="uk-position-top-center footer-icon"
+                                            uk-icon="icon: users; ratio: 2.8"></span>
+                                        <br>
+                                        <div class="uk-position-center footer-margin">Vertrauen</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/search.js"></script>
 </body>
+
 </html>
